@@ -2,6 +2,11 @@
 'use strict';
 
 /**
+ * Dependencies
+ */
+var del = require('del');
+
+/**
  * Expose configuration
  * @type {Object}
  */
