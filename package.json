@@ -1,6 +1,6 @@
 {
   "name": "gulp-toolbelt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Swiss Army Gulp toolbelt",
   "main": "gulpfile.js",
   "scripts": {
