@@ -24,8 +24,7 @@ module.exports = function createTask(gulp, config) {
   gulp.lodash.each(config, function(path, name) {
     gulp.task('clean:' + name, function(done) {
       gulp.log('Cleaning ' + name + ': ' + path);
-      return gulp.src(path)
-        .pipe(gulp.plugins.clean());
+      del(path, done);
     });
   });
 };
