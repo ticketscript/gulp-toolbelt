@@ -6,5 +6,7 @@
  * @type {Object}
  */
 module.exports = function createConfig(gulp) {
-  return {};
+  return {
+    bump: ['package.json']
+  };
 };

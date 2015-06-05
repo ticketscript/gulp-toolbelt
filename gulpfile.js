@@ -5,7 +5,6 @@
  * Dependencies
  */
 var args = require('yargs').argv
-  , glob = require('glob')
   , gulp = require('gulp')
   , path = require('path')
   , root = process.cwd()
