@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ticketscript/gulp-toolbelt#readme",
   "dependencies": {
+    "async": "^1.2.1",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -37,6 +38,7 @@
     "gulp-util": "^3.0.5",
     "gulp-watch": "^4.2.4",
     "lodash": "^3.9.3",
+    "request": "^2.57.0",
     "yargs": "^3.10.0"
   }
 }
