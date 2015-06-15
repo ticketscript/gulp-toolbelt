@@ -20,6 +20,11 @@ var $ = gulp.plugins = require('gulp-load-plugins')({
 });
 
 /**
+ * Export some tools
+ */
+gulp.isparta = require('isparta');
+
+/**
  * Set proper paths for Gulp
  */
 gulp.paths = {
@@ -29,6 +34,7 @@ gulp.paths = {
   client: root + '/client/',
   server: root + '/server/',
   test:   root + '/test/',
+  src:    root + '/src/',
   report: root + '/report/',
   bower:  root + '/bower_components/',
   npm:    root + '/node_modules/'
